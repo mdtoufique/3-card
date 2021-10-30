@@ -1,0 +1,132 @@
+.attribution {
+    font-size: 11px;
+ 
+    text-align: center;
+    position: absolute;
+    bottom:150px;
+    left:0;
+    right:0;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    height: 1px;
+    min-height: 100vh;
+    width:100vw;
+    position:relative;
+    overflow:hidden;
+    background-color:hsl(0, 0%, 95%);
+}
+.main {
+    
+    width: 900px;
+    height: 45%;
+    min-height: 400px;
+    margin:0 auto;
+    margin-top:17vh;
+    
+    
+}
+.c1 {
+    background-color: hsl(31, 77%, 52%);
+    display: inline-block;
+    vertical-align: top;
+    width: 21.33%;
+    padding:6%;
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.c2 {
+    background-color: hsl(184, 100%, 22%);
+    display: inline-block;
+    width: 21.33%;
+    padding:6%;
+    height: 100%;
+    vertical-align: top;
+    
+}
+.c3 {
+    background-color: hsl(179, 100%, 13%);
+    display: inline-block;
+    width: 21.34%;
+    padding:6%;
+    height: 100%;
+    vertical-align: top;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.mid{
+    margin:0 auto;
+    
+}
+.tx{
+    font-size: 14px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color:hsl(0, 0%, 95%);
+}
+.but{
+    background-color:hsl(0, 0%, 95%);
+    width:120px;
+    height: 40px;
+    border-radius:50px;
+    margin-top: 100px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color:  hsl(31, 77%, 52%);
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (max-width: 900px) {
+    .main{
+        width: 320px;
+        margin-top:80px;
+        margin-bottom:80px;
+      
+        
+    }
+    .attribution {
+        bottom:-80px;
+    }
+    body{
+        min-height: auto;
+        height:auto;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .c1{
+        width:88%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 3%;
+        width:80%;
+        padding:10%;
+        height:350px;
+    }
+    .c2{
+        width:80%;
+        padding:10%;
+    }
+    .c3{
+        width:88%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 3%;
+        width:80%;
+        padding:10%;
+    }
+}
